@@ -21,7 +21,7 @@ nav ul{
 nav ul li{
   margin: 0;
   margin-left: 1rem;
-  background: #000;
+  background: #fff;
   padding:.6rem 1rem;
 }
 
@@ -34,46 +34,46 @@ img {
     max-width: 100%; /* DO NOT delete or change this line */
 }
 #cougar{
-  color: #b26219;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin:auto;
+  background: #b26219;
+
+
+
+
 }
 #lion{
-  color:#c95012;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin:auto;
+  background:#c95012;
+
+
 }
 #tiger{
-  color:#a0680e;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin:auto;
+  background:#d38912;
 }
 article{
-  max-width: 600px;
+  display: flex;
+justify-content: center;
+margin: 0;
+    color: #fff
 }
 .text {
-  background:#fff;
-  padding: 20px;
+  padding: 60px;
   font-size: 1.2rem;
   line-height: normal;
+}
+section{
+  max-width: 600px
 }
 h1{
   color: #fff;
 }
-h2{
-  text-align:center;
-}
+
 footer p{
-  background:#666;
-  margin:0;
-  padding: 20px;
   text-align: center;
+  background:  #666;
+  padding:20px;
+  margin: 0;
+}
+.photo img {
+  margin-top: 90px;
 }
 
 /* ----- SUGGESTED COLORS -----
@@ -100,7 +100,7 @@ footer p{
         specific articles or sections to improve CONTRAST --- */
 
 a {
-    color: #379cb2;
+    color: #000;
 }
 a:hover {
     color: #82E8FF;
